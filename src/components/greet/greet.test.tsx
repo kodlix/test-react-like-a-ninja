@@ -7,7 +7,7 @@ test('Should render correctly', () => {
     expect(textElement).toBeInTheDocument();
  })
 
- test('Should render correctly', () => { 
+ test('Should render correctly with Name', () => { 
     render(<Great name="dili" />);
     const textElement = screen.getByText(/hello dili/i);
     expect(textElement).toBeInTheDocument();
